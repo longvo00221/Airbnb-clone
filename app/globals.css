@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+    height: 100%;
+}
+.rdrMonthsVertical {
+    margin: auto;
+    flex-direction: column;
+}
+.mapboxgl-control-container {
+    display: none;
+}
+.showmap:hover {
+    box-shadow: 0 0 0 1px transparent, 0 0 0 4px transparent, 0 6px 16px rgba(0, 0, 0, 0.12) !important;
+}
